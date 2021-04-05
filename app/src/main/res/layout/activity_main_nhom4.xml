@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textSize="30sp"
+    android:id="@+id/txt1"
+    android:gravity="center"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:textColor="#F81504"
+    android:layout_marginTop="20dp"
+    android:text="Thành viên nhóm 4"></TextView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LVNHOM"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"></ListView>
+</RelativeLayout>

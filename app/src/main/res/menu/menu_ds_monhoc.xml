@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Thoát"
+        android:icon="@drawable/back7"
+        app:showAsAction="always"
+        android:id="@+id/outDSMH"></item>
+    <item android:title="Chỉn sửa"
+        android:icon="@drawable/editicon"
+        app:showAsAction="always"
+        android:id="@+id/editDSMH"></item>
+    <item android:title="Thêm Môn Học Mới"
+        android:icon="@drawable/add"
+        app:showAsAction="always"
+        android:id="@+id/addDSMH"></item>
+</menu>

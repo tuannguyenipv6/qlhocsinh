@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/rsz_1rsz_nenvuong"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:text="Tạo Tài Khoản"
+        android:gravity="center"
+        android:id="@+id/BMTK"
+        android:textColor="#F41707"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BMTK"
+        android:textSize="25sp"
+        android:hint="Tạo Tài Khoản"
+        android:maxLength="13"
+        android:background="@drawable/item_nen_xanh"
+        android:gravity="center"
+        android:id="@+id/TK_Tao"
+        android:digits="abcdefghijklmnopqrstuvwxyz0123456789"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TK_Tao"
+        android:textSize="25sp"
+        android:maxLength="13"
+        android:id="@+id/MK_Tao"
+        android:background="@drawable/item_nen_xanh"
+        android:hint="Tạo Mật Khẩu"
+        android:inputType="numberPassword"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/MK_Tao">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginRight="20dp"
+            android:text="OK"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/item_nen_click"
+            android:id="@+id/X_N_Tao"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/item_nen_click"
+            android:layout_marginRight="20dp"
+            android:text="Hủy"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:id="@+id/Huy_Tao_TK"></Button>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0303"
+        android:textSize="40sp"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:text="DS Các Lớp!"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtDSL"></TextView>
+    <ListView
+        android:layout_below="@+id/txtDSL"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LVDSL"
+        android:padding="10dp"></ListView>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Thay Đổi TKB"
+        android:id="@+id/mnSuaDiem"
+        android:icon="@drawable/iconsuatkb"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/mnThoatDiem"
+        android:title="Thoát"
+        android:icon="@drawable/back7"
+        app:showAsAction="always"></item>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/item_nen_do"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFDFE"
+        android:textSize="25sp"
+        android:text="Tài Khoản"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/DongTaiKhoang1">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:text="Mật Khẩu"
+        android:textColor="#FFFDFE"
+        android:id="@+id/DongMatKhau1"
+        android:layout_below="@+id/DongTaiKhoang1"
+        android:layout_marginTop="10dp"></TextView>
+</RelativeLayout>

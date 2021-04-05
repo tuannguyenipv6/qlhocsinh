@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="110dp"
+            android:background="@drawable/item_khung"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="STT"
+            android:id="@+id/nSTT"
+            ></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:text="Mã Môn Học"
+            android:gravity="center"
+            android:id="@+id/nMMH"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="400dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Tên Môn Học"
+            android:id="@+id/nTMH"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:textSize="30sp"
+            android:text=" TC "
+            android:gravity="center"
+            android:id="@+id/nTC"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="230dp"
+            android:textSize="30sp"
+            android:text="Điểm Thái Độ"
+            android:gravity="center"
+            android:id="@+id/nDThaiDo"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Điểm Kiểm Tra"
+            android:id="@+id/nDiemKT"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:text="TB Bộ Phận"
+            android:gravity="center"
+            android:id="@+id/nTBBoPhan"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:id="@+id/nDiemThi"
+            android:gravity="center"
+            android:text="Điểm Thi"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="240dp"
+            android:textSize="30sp"
+            android:text="TB Môn (Hệ 10)"
+            android:gravity="center"
+            android:id="@+id/nTBMonH10"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="240dp"
+            android:textSize="30sp"
+            android:text="TB Môn (Hệ 4)"
+            android:gravity="center"
+            android:id="@+id/nTBMonH4"
+            android:background="@drawable/item_khung"></TextView>
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:text="Điểm Chử"
+            android:id="@+id/nDiemChu"
+            android:gravity="center"
+            android:background="@drawable/item_khung"></TextView>
+    </TableRow>
+</TableLayout>

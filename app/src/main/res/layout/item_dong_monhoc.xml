@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_nen_ds_sv"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:id="@+id/txtDTMH"
+        android:paddingLeft="20dp"
+        android:text="Tên Môn Học!"
+        android:textColor="#FD0404"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtDMMH"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:layout_below="@id/txtDTMH"
+        android:text="Mã Môn Học!"
+        android:textColor="#673AB7"></TextView>
+</RelativeLayout>
